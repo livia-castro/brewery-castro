@@ -1,1 +1,1 @@
-Final Porject for WEB DEV course - Coder House
+Final Project for WEB DEV course - Coder House
