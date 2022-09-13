@@ -79,10 +79,13 @@ nav li {
 .menu-item>a {
     text-decoration: none;
     color: inherit;
+    box-shadow: inset 0 0 0 0 var(--yellow);
+    transition: color 0.3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .menu-item>a:hover {
-    color: var(--yellow);
+    color: var(--purple);
+    box-shadow: inset 250px 0 0 0 var(--yellow);
 }
 
 #main {
@@ -212,6 +215,11 @@ footer {
     .grid-container-beers {
         grid-template-columns: repeat(2, 1fr);
         margin: 1rem;
+    }
+
+    .menu-item>a:hover {
+        color: var(--yellow);
+        box-shadow: inset 0 0 0 0 var(--yellow);
     }
 
  
