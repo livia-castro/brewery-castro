@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../images/code_and_beer.jpg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+    </style>
+    <title>Contato</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header">
+            <div class="header-logo">
+                <a class="logo-link" href="../index.html" title="Coder House Brewery">
+                    <img class="logo" src="../images/beer_city_logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="header-nav">
+                <nav class="header-menu">
+                    <ul class="menu font-silkscreen">
+                        <li class="menu-item"><a href="../index.html">Coder House Brewery</a></li>
+                        <li class="menu-item"><a href="nossas_cervejas.html">Nossas cervejas</a></li>
+                        <li class="menu-item"><a href="onde_encontrar.html">Onde encontrar</a></li>
+                        <li class="menu-item"><a href="trabalhe_conosco.html">Trabalhe conosco</a></li>
+                        <li class="menu-item"><a href="contato.html">Contato</a></li>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div>
+            <h2>Fale conosco</h2>
+            <form>
+                <label for="first-name">Nome</label><br>
+                <input type="text" id="first-name" name="first-name" placeholder="Coder" required><br>
+                <label for="last-name">Sobrenome</label><br>
+                <input type="text" id="last-name" name="last-name" placeholder="House" required><br>
+                <label for="phone">Telefone</label><br>
+                <input type="text" id="phone" name="phone" placeholder="(21) 99999-9999"><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="beer@coderhouse.com" required><br>
+                <label for="marital-status">Estado civil: </label>
+                <select name="marital-status" id="marital-status">
+                    <option value="single">Solteiro(a)</option>
+                    <option value="married">Casado(a)</option>
+                    <option value="divorced">Divorciado(a)</option>
+                    <option value="widowed">Viúvo(a)</option>
+                </select><br>
+                <label for="newsletter">Deseja receber nossa newsletter? </label>
+                <input type="checkbox" name="newsletter" id="newsletter"><br>
+                <label for="message">Mensagem</label><br>
+                <textarea name="message" cols="40" rows="10" placeholder="Nos mande um oi!"></textarea><br>
+                <input type="reset" value="Limpar informações">
+                <input type="submit" value="Enviar">
+
+            </form>
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+        <div>
+            <p>© 2022 Coder House Brewery. Todos os direitos reservados.</p>
+            <p>Beba com moderação. Não compartilhe este conteúdo com menores de idade.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
